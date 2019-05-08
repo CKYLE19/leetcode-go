@@ -11,9 +11,8 @@ func Test_arrayNesting(t *testing.T) {
 		args args
 		want int
 	}{
-		// TODO: Add test cases.
 		{
-			name: "base case",
+			name: "Example 1",
 			args: args{nums: []int{5, 4, 0, 3, 1, 6, 2}},
 			want: 4,
 		},

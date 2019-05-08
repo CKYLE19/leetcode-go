@@ -14,9 +14,8 @@ func Test_findDuplicates(t *testing.T) {
 		args args
 		want []int
 	}{
-		// TODO: Add test cases.
 		{
-			name: "Has duplicates",
+			name: "Example 1",
 			args: args{nums: []int{4, 3, 2, 7, 8, 2, 3, 1}},
 			want: []int{2, 3},
 		},

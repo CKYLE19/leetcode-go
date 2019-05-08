@@ -11,9 +11,8 @@ func Test_longestPrefix(t *testing.T) {
 		args args
 		want string
 	}{
-		// TODO: Add test cases.
 		{
-			name: "Base Case",
+			name: "Example 1",
 			args: args{
 				words: []string{
 					"hello",

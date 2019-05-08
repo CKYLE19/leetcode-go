@@ -11,24 +11,23 @@ func Test_lemonadeChange(t *testing.T) {
 		args args
 		want bool
 	}{
-		// TODO: Add test cases.
 		{
-			name: "Base Case",
+			name: "Example 1",
 			args: args{bills: []int{5, 5, 5, 10, 20}},
 			want: true,
 		},
 		{
-			name: "Another Case",
+			name: "Example 2",
 			args: args{bills: []int{5, 5, 10}},
 			want: true,
 		},
 		{
-			name: "Bad Case",
+			name: "Example 3",
 			args: args{bills: []int{10, 10}},
 			want: false,
 		},
 		{
-			name: "Another Bad Case",
+			name: "Example 4",
 			args: args{bills: []int{5, 5, 10, 10, 20}},
 			want: false,
 		},
